@@ -8,7 +8,7 @@ a {
 }
 
 h1 { 
-    font-weight: bold;
+
 }
 
 .banner { 
@@ -18,4 +18,12 @@ h1 {
     min-height: 410px;
     max-height: 650px;
     padding: 141px 65px;
+}
+
+.cifras {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
