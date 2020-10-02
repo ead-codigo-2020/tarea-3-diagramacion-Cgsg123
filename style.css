@@ -6,3 +6,16 @@ p,
 a {
     font-family: sans-serif;
 }
+
+h1 { 
+    font-weight: bold;
+}
+
+.banner { 
+    background-image: ;
+    min-width: 320px;
+    max-width: 100%;
+    min-height: 410px;
+    max-height: 650px;
+    padding: 141px 65px;
+}
