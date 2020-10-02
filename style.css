@@ -16,7 +16,7 @@ h1 {
 }
 
 .banner { 
-    background-image: ;
+    background-image: url(/images/aerea\ san\ antonio.png);
     min-width: 320px;
     max-width: 100%;
     min-height: 410px;
@@ -30,4 +30,9 @@ h1 {
     margin-right: auto;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.cifras-list { 
+    display: flex;
+    flex-wrap: wrap;
 }
