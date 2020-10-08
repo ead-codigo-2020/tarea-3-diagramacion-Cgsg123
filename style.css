@@ -35,6 +35,9 @@ h1 {
     padding-bottom: 4rem;
 }
 
+h2 {
+    text-align: center;
+}
 .cifras-list { 
     display: flex;
     flex-wrap: wrap;
