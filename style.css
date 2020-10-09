@@ -31,6 +31,7 @@ h1 {
 .banner { 
     background-image: url(images/aerea\ san\ antonio.png);
     background-size: cover;
+    background-position: bottom center;
     min-width: 320px;
     max-width: 100%;
     min-height: 410px;
