@@ -69,7 +69,7 @@ h1 {
 }
 
 .menu-completo a {
-    height: auto;
+    height: 2em;
     font-size: small;
     font-weight: 700;
     text-transform: uppercase;
