@@ -31,12 +31,12 @@ a {
     font-weight: 700;
     grid-row-start: 2;
     grid-row-end: 3;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 h1 { 
     font-size: 3em;
-    display: inline-flex;
-    flex-direction: column;
     line-height: 0.01em;
 }
 
