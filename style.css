@@ -34,7 +34,7 @@ h1 {
 }
 
 .banner { 
-    background-image: url(images/aerea\ san\ antonio.png);
+    background-image: linear-gradient(to bottom, black, transparent) url(images/aerea\ san\ antonio.png);
     background-size: cover;
     background-position: bottom center;
     min-width: 320px;
