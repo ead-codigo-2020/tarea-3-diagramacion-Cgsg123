@@ -58,8 +58,7 @@ h1 {
     grid-template-rows: 4fr 2fr 1fr;
 }
 
-.banner .titulo,
-.menu-completo { 
+body { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
