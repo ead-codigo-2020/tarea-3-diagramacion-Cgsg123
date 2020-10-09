@@ -45,7 +45,7 @@ h1 {
     min-height: 520px;
     color: white;
     display: grid;
-    grid-template-columns: 10% auto auto 10%;
+    grid-template-columns: 10% auto 10%;
 }
 
 .banner h1,
@@ -66,6 +66,7 @@ h1 {
 }
 
 .menu-completo a {
+    font-size: small;
     font-weight: 700;
     text-transform: uppercase;
     flex-basis: auto;
