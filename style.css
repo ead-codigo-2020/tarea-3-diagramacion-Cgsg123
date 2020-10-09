@@ -57,6 +57,11 @@ a {
     text-transform: uppercase;
 }
 
+.menu-mini a {
+    font-size: 0.8rem;
+    padding: 1em;
+}
+
 .geoinfo p {
     font-weight: 300;
     display: inline-flex;
@@ -67,7 +72,7 @@ a {
     font-weight: 700;
     grid-row-start: 2;
     grid-row-end: 3;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 
