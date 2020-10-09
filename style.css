@@ -47,7 +47,7 @@ h1 {
     color: white;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 60% auto 5%;
+    grid-template-rows: 60% auto 10%;
 }
 
 .banner h1,
@@ -73,7 +73,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     flex-basis: auto;
-    padding: 2em 1em;
+    padding: 2rem 1rem;
     border: 1px solid whitesmoke;
 }
 
