@@ -84,7 +84,7 @@ h1 {
     text-transform: uppercase;
     flex-basis: auto;
     padding: 2em 1em;
-    border: 1px solid whitesmoke;
+    border: 1px solid #40979797;
 }
 
 @media (max-width: 500px) {
