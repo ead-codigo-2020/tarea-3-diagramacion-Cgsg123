@@ -60,7 +60,7 @@ h1 {
 
 .banner .titulo,
 .menu-completo, 
-body { 
+.header { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
