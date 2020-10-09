@@ -50,7 +50,7 @@ a {
     grid-template-rows: 70% 20% 10%;
 }
 
-.banner h1,
+.banner .titulo,
 .menu-completo { 
     grid-column-start: 2;
     grid-column-end: 3;
