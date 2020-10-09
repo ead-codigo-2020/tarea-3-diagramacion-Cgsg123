@@ -12,6 +12,10 @@ a {
     padding-right: 1em;
 }
 
+.geoinfo p {
+    padding-right: 1em;
+}
+
 h1 { 
     font-weight: 700;
     display: inline;
