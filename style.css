@@ -8,14 +8,14 @@ a {
 }
 
 .geoinfo {
-    display: inline-flex;
-    padding-right: 1em;
+    width: 100%;
     position: absolute;
     color: white;
     background-color: black;
 }
 
 .geoinfo p {
+    display: inline-flex;
     padding-right: 1em;
 }
 
