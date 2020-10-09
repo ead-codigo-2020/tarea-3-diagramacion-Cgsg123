@@ -29,7 +29,7 @@ a {
 
 h1 { 
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     font-weight: 700;
     grid-row-start: 2;
     grid-column-end: 3;
