@@ -48,7 +48,8 @@ h1 {
     grid-template-columns: 10% auto 10%;
 }
 
-.banner h1 { 
+.banner h1,
+.menu-completo { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
