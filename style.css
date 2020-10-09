@@ -60,9 +60,10 @@ h1 {
     border: 1px solid whitesmoke ;
 }
 
-.menu-completo a:link{
+a {
     color: white;
-}
+    text-decoration: none;
+  }
 
 .menu-completo a:hover{ 
     background-color: #1fbbeb;
