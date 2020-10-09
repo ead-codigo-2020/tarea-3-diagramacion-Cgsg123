@@ -23,6 +23,7 @@ a {
 }
 
 .geoinfo p {
+    font-weight: 300;
     display: inline-flex;
     padding-right: 1em;
 }
@@ -59,8 +60,7 @@ h1 {
 }
 
 .banner .titulo,
-.menu-completo, 
-.container { 
+.menu-completo { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
