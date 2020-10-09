@@ -22,6 +22,7 @@ a {
 h1 { 
     font-weight: 700;
     display: inline;
+    z-index: 10;
 }
 
 .light {
@@ -30,7 +31,6 @@ h1 {
 
 .banner { 
     background-image: url(images/aerea\ san\ antonio.png);
-
     min-width: 320px;
     max-width: 100%;
     min-height: 410px;
