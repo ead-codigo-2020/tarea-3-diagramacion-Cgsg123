@@ -44,6 +44,7 @@ h1 {
     min-width: 320px;
     max-width: 100%;
     min-height: 520px;
+    border: 2px solid whitesmoke;
     color: white;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
