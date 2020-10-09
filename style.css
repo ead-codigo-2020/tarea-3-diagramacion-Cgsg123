@@ -8,7 +8,7 @@ a {
 }
 
 
-.header { 
+.banner { 
     background-image: linear-gradient(to top, black, transparent), url(images/aerea\ san\ antonio.png);
     background-size: cover;
     background-position: bottom center;
@@ -18,22 +18,34 @@ a {
     color: white;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 1fr 3fr 2fr 1fr;
+    grid-template-rows: 4fr 2fr 1fr;
 }
+
+.banner .titulo,
+.menu-completo,
+.geoinfo{ 
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
 
 .container { 
     width: 100%;
-    grid-row-start: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+
 }
 
 .geoinfo {
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
     background-color: black;
-
 }
 
 .menu-mini { 
     text-align: right;
-    position: relative;
 }
 
 .geoinfo p {
@@ -44,8 +56,8 @@ a {
 
 .titulo { 
     font-weight: 700;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     display: inline-flex;
     flex-direction: column;
 }
@@ -60,26 +72,18 @@ h1 {
     font-weight: 300;
 }
 
-
-.banner .titulo,
-.menu-completo,
-.geoinfo { 
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
 .caption { 
     text-align: right;
     font-weight: 300;
-    grid-column-end: 4;
-    grid-row-end: 5;
+    grid-column-end: 3;
+    grid-row-end: 4;
 }
 
 .menu-completo {
      margin-top: 2em;
      display: flex;
      flex-direction: row;
-     grid-row-start: 5;
+     grid-row-start: 4;
 }
 
 .menu-completo a {
