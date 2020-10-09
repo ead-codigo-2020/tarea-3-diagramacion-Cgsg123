@@ -59,7 +59,8 @@ h1 {
 }
 
 .banner .titulo,
-.menu-completo { 
+.menu-completo, 
+body { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
