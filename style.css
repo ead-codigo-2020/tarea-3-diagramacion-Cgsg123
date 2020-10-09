@@ -9,6 +9,7 @@ a {
 
 .geoinfo {
     display: flexbox;
+    flex-wrap: nowrap;
 }
 
 h1 { 
