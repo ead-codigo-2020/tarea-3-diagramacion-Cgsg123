@@ -33,10 +33,10 @@ a {
     grid-row-end: 3;
     display: inline-flex;
     flex-direction: column;
-    flex-basis: content;
 }
 
 h1 { 
+    flex-basis: content;
     font-size: 3em;
     line-height: 0.01em;
 }
