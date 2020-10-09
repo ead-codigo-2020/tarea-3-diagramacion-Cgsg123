@@ -44,13 +44,17 @@ h1 {
     display: grid;
 }
 
-
+.caption { 
+    text-align: right;
+}
 
 .menu-completo {
      margin-top: 2em;
+     display: flex;
      padding: 3em 1em;
-     border: 1px transparent whitesmoke ;
+     border: 1px solid whitesmoke ;
 }
+
 .cifras {
     max-width: 1440px;
     margin-left: auto;
