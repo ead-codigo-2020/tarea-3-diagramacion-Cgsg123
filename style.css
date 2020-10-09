@@ -45,17 +45,18 @@ h1 {
     min-height: 520px;
     color: white;
     display: grid;
-    grid-template-columns: 10% auto 10%;
+    grid-template-columns: 10% auto auto 10%;
 }
 
 .banner h1,
 .menu-completo { 
     grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .caption { 
     text-align: right;
-    grid-column-end: 2;
+    grid-column-end: 3;
 }
 
 .menu-completo {
