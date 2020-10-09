@@ -9,7 +9,6 @@ a {
 
 .container { 
     color: white;
-    z-index: 10;
 }
 
 .geoinfo {
@@ -61,7 +60,8 @@ h1 {
 }
 
 .banner .titulo,
-.menu-completo { 
+.menu-completo,
+.geoinfo { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
