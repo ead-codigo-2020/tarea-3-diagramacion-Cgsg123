@@ -14,8 +14,8 @@ a {
 }
 
 .geoinfo {
-
-
+    position: absolute;
+    grid-row-start: 0;
 
 }
 
