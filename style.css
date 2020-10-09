@@ -6,15 +6,19 @@ p,
 a {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.header { 
+    display: grid;
+    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
+    grid-template-rows: 4fr 2fr 1fr;
+}
 
 .container { 
     color: white;
-    background-color: black;
     width: 100%;
 }
 
 .geoinfo {
-    position: absolute;
+    background-color: black;
     grid-row-start: 0;
 
 }
@@ -56,9 +60,6 @@ h1 {
     max-width: 100%;
     min-height: 520px;
     color: white;
-    display: grid;
-    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 4fr 2fr 1fr;
 }
 
 .banner .titulo,
