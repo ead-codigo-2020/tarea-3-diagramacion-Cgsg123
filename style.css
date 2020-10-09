@@ -52,10 +52,12 @@ h1 {
 
 .menu-completo {
      margin-top: 2em;
+     display: flex;
+     flex-direction: row;
 }
 
 .menu-completo a {
-    display: inline-flex;
+    flex-basis: auto;
     padding: 3em 1em;
     border: 1px solid whitesmoke ;
 }
