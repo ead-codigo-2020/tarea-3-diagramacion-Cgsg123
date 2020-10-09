@@ -34,9 +34,9 @@ a {
 }
 
 h1 { 
-    font-size: 5rem;
+    font-size: 4rem;
     display: inline-flex;
-    line-height: 0.1em;
+    line-height: 0.05em;
 }
 
 .light {
