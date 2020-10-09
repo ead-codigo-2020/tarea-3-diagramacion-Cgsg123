@@ -45,7 +45,7 @@ h1 {
     min-height: 520px;
     color: white;
     display: grid;
-    grid-template-columns: 10% auto 10%;
+    grid-template-columns: minmax(5%, 10%) auto 10%;
 }
 
 .banner h1,
