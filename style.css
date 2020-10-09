@@ -9,12 +9,14 @@ a {
 
 .container { 
     color: white;
+    background-color: black;
+    width: 100%;
 }
 
 .geoinfo {
-    width: 100%;
+
     position: absolute;
-    background-color: black;
+
 }
 
 .menu-mini { 
