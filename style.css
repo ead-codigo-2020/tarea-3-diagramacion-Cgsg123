@@ -87,7 +87,8 @@ h1 {
 
 @media (max-width: 500px) {
     .menu-completo,
-    .menu-mini {
+    .menu-mini,
+    .geoinfo {
       display: none;
     }
   }
