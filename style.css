@@ -44,12 +44,10 @@ h1 {
     min-width: 320px;
     max-width: 100%;
     min-height: 520px;
-    border: 2px solid red;
     color: white;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 60% auto 5%;
-}
+    grid-template-rows: 70% 20% 10%;
 
 .banner h1,
 .menu-completo { 
