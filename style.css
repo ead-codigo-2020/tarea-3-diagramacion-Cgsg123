@@ -9,6 +9,7 @@ a {
 
 .geoinfo {
     display: inline-flex;
+    padding-right: 1em;
 }
 
 h1 { 
