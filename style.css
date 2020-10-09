@@ -23,7 +23,7 @@ a {
 
 .banner .titulo,
 .menu-completo,
-.geoinfo{ 
+.container { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -31,10 +31,11 @@ a {
 
 .container { 
     width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 4;
     grid-row-start: 1;
+}
 
+.container img {
+    height: 5em;
 }
 
 .geoinfo {
