@@ -8,8 +8,7 @@ a {
 }
 
 .geoinfo {
-    display: flexbox;
-    flex-wrap: nowrap;
+    display: inline;
 }
 
 h1 { 
