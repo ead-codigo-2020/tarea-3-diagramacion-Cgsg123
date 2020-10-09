@@ -85,8 +85,9 @@ h1 {
     border: 1px solid whitesmoke;
 }
 
-@media (max-width: 320px) {
-    .menu-completo {
+@media (max-width: 500px) {
+    .menu-completo,
+    .menu-mini {
       display: none;
     }
   }
