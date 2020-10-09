@@ -55,6 +55,7 @@ h1 {
 
 .caption { 
     text-align: right;
+    grid-column-end: 3;
 }
 
 .menu-completo {
