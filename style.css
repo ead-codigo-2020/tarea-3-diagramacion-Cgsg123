@@ -46,6 +46,9 @@ h1 {
     color: white;
     display: grid;
     grid-template-columns: 10% auto 10%;
+}
+
+.banner h1 { 
     grid-column: 2 3;
 }
 
