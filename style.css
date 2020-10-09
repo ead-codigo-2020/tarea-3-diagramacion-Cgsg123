@@ -26,6 +26,9 @@ h1 {
     max-height: 650px;
 }
 
+.menu-completo {
+     margin-top: 2em;
+}
 .cifras {
     max-width: 1440px;
     margin-left: auto;
