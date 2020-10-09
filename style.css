@@ -69,11 +69,12 @@ h1 {
 }
 
 .menu-completo a {
+    height: auto;
     font-size: small;
     font-weight: 700;
     text-transform: uppercase;
     flex-basis: auto;
-    padding: 2rem 1rem;
+    padding: 2em 1em;
     border: 1px solid whitesmoke;
 }
 
