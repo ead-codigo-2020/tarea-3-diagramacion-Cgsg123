@@ -41,10 +41,15 @@ h1 {
     max-width: 100%;
     min-height: 410px;
     max-height: 650px;
+    display: grid;
 }
+
+
 
 .menu-completo {
      margin-top: 2em;
+     padding: 3em 1em;
+     border: 1px transparent whitesmoke ;
 }
 .cifras {
     max-width: 1440px;
