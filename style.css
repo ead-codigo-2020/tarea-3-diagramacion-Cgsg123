@@ -54,7 +54,7 @@ h1 {
     color: white;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 70% 20% 10%;
+    grid-template-rows: 80% 10% 10%;
 }
 
 .banner .titulo,
