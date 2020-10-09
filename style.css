@@ -33,6 +33,10 @@ a {
     grid-row-end: 3;
 }
 
+h1 { 
+    display: inline-flex;
+}
+
 .light {
     font-weight: 300;
 }
