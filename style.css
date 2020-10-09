@@ -33,6 +33,7 @@ a {
     grid-row-end: 3;
     display: inline-flex;
     flex-direction: column;
+    flex-basis: content;
 }
 
 h1 { 
