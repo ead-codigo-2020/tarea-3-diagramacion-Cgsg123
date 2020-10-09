@@ -53,12 +53,12 @@ h1 {
     max-width: 100%;
     min-height: 520px;
     color: white;
-    display: grid;
-    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
-    grid-template-rows: 4fr 2fr 1fr;
 }
 
 body { 
+    display: grid;
+    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
+    grid-template-rows: 4fr 2fr 1fr;
     grid-column-start: 2;
     grid-column-end: 3;
 }
