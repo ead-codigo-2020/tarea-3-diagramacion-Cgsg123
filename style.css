@@ -35,7 +35,7 @@ a {
 
 h1 { 
     display: inline-flex;
-    line-height: 1em;
+    line-height: 0.1em;
 }
 
 .light {
