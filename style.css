@@ -23,7 +23,8 @@ a {
 
 .banner .titulo,
 .menu-completo,
-.container { 
+.container,
+.caption { 
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -76,7 +77,6 @@ h1 {
 .caption { 
     text-align: right;
     font-weight: 300;
-    grid-column-end: 3;
     grid-row-end: 4;
 }
 
@@ -128,4 +128,8 @@ h2 {
 .cifras-list { 
     display: flex;
     flex-wrap: wrap;
+}
+
+footer {
+    background-color: black;
 }
