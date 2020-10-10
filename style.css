@@ -3,7 +3,8 @@ h2,
 h3,
 h4,
 p,
-a {
+a,
+span {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -135,10 +136,17 @@ a {
     padding-bottom: 4rem;
 }
 
+
 h2 {
     text-align: center;
 }
 .cifras-list { 
+    display: grid;
+    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
+}
+
+.cifras-row {
+    grid-column: 2/3;
     display: flex;
     flex-wrap: wrap;
 }
