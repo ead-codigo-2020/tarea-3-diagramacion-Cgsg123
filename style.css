@@ -145,13 +145,15 @@ a {
 }
 .cifras-list { 
     grid-column: 2/3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cifras-row {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 0.1rem;
     max-width: 33.3%;
     margin-bottom: 7rem;
 }
@@ -160,6 +162,15 @@ a {
     background-color: seagreen;
     width: 3rem;
     height: 3rem;
+}
+
+.cifras-valor { 
+    font-size:  3rem;
+}
+
+.cifras-texto { 
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 footer {
