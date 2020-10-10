@@ -39,7 +39,9 @@ span {
     height: 5em;
 }
 
-.barra-negra { 
+.barra-negra-atras { 
+    grid-column: 1/4;
+    grid-row-start: 1;
     width: 100%;
     height: 2.6rem;
     background-color: black;
@@ -56,7 +58,7 @@ span {
     text-align: right;
     font-weight: 300;
     text-transform: uppercase;
-    margin-top: 1rem;;
+
 }
 
 .menu-mini a {
