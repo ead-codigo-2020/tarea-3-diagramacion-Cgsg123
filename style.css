@@ -130,8 +130,6 @@ a {
 
 .cifras {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: grid;
@@ -140,7 +138,10 @@ a {
 
 
 .cifras h2 {
+    grid-column: 2/3;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cifras-list { 
     grid-column: 2/3;
