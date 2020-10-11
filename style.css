@@ -160,6 +160,7 @@ a {
 }
 
 .cifras-row {
+    position: relative;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 3rem auto;
