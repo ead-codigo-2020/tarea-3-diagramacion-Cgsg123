@@ -33,10 +33,14 @@ span {
 .container { 
     width: 100%;
     grid-row-start: 1;
+    display: grid;
+    grid-template-rows: max-content;
 }
 
 .container img {
     height: 5em;
+    width: fit-content;
+    border-color: 2px solid white;
 }
 
 .barra-negra-atras { 
@@ -55,10 +59,10 @@ span {
 }
 
 .menu-mini { 
+    position: relative;
     text-align: right;
     font-weight: 300;
     text-transform: uppercase;
-
 }
 
 .menu-mini a {
@@ -73,17 +77,22 @@ span {
 }
 
 .titulo { 
-    font-weight: 700;
     grid-row-start: 2;
     grid-row-end: 3;
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
+strong { 
+    font-weight: 700;
+}
+
 h1 { 
+    font-weight: 300;
     flex-basis: content;
-    font-size: 3em;
-    line-height: 0.01em;
+    font-size: 3rem;
+    line-height: 1.15;
 }
 
 .light {
@@ -110,7 +119,7 @@ h1 {
     text-transform: uppercase;
     flex-basis: auto;
     padding: 2em 1em;
-    border: 1px solid #40979797;
+    border: 1px solid #40979760;
 }
 
 @media (max-width: 500px) {
