@@ -137,32 +137,36 @@ a {
 }
 
 .cifras {
-    max-width: 1440px;
+    max-width: 100%;
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: grid;
     grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
 }
 
-
 .cifras h2 {
     grid-column: 2/3;
     text-align: center;
     font-weight: 300;
+    font-size: 2em;
     text-transform: uppercase;
+    color: #44484c;
 }
+
 .cifras-list { 
     grid-column: 2/3;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    background-color: red;
 }
 
 .cifras-row {
     display: grid;
     grid-template-columns: 3rem auto;
     grid-template-rows: 3rem auto;
+    column-gap: 1em;
     max-width: 33.3%;
-    margin-bottom: 7rem;
 }
 
 .cifras-icon { 
@@ -179,7 +183,6 @@ a {
     grid-column: 2/3;
     grid-row: 2/3;
     text-transform: uppercase;
-
 }
 
 footer {
