@@ -33,14 +33,12 @@ span {
 .container { 
     width: 100%;
     grid-row-start: 1;
-    display: grid;
-    grid-template-rows: max-content;
+    display: inline;
 }
 
 .container img {
     height: 5em;
     width: fit-content;
-    border-color: 2px solid white;
 }
 
 .barra-negra-atras { 
@@ -59,7 +57,6 @@ span {
 }
 
 .menu-mini { 
-    position: relative;
     text-align: right;
     font-weight: 300;
     text-transform: uppercase;
