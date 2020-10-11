@@ -156,17 +156,17 @@ a {
 .cifras-list { 
     grid-column: 2/3;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    background-color: red;
 }
 
 .cifras-row {
     display: grid;
-    grid-template-columns: 3rem auto;
+    grid-template-columns: auto auto;
     grid-template-rows: 3rem auto;
     column-gap: 1em;
     max-width: 33.3%;
+    margin: 3rem auto;
+
 }
 
 .cifras-icon { 
@@ -177,12 +177,15 @@ a {
 
 .cifras-valor { 
     font-size:  3rem;
+    color: #1abae9;
 }
 
 .cifras-texto { 
     grid-column: 2/3;
     grid-row: 2/3;
     text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #44484cb7;
 }
 
 footer {
