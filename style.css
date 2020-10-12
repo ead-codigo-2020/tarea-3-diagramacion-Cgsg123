@@ -189,7 +189,7 @@ a {
 }
 
 .sostenibilidad-row {
-    background-image: url(images/aerea\ san\ antonio.png);
+    background-image: url(images/noche.jpg);
     background-size: cover;
     background-position: bottom center;
     min-width: 320px;
@@ -211,18 +211,42 @@ a {
     grid-row: 1/2;
     grid-column: 2/3;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .sostenibilidad-list { 
     grid-row: 2/3;
     grid-column: 2/3;
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.sostenibilidad-info { 
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sostenibilidad-foto { 
+    max-width: 100%;
 }
 
 
 .sostenibilidad-outro { 
+    margin-top: 3rem;
     grid-row: 3/4;
     grid-column: 2/3;
     text-align: center;
+}
+
+.sostenibilidad-outro a {
+    border: 1px solid #80000000;
+    background-color: #80000000;
+    padding: 2rem;
+    margin-top: 5rem;
 }
 footer {
     background-color: black;
