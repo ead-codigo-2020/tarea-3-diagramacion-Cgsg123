@@ -155,12 +155,11 @@ a {
 
 .cifras-list { 
     grid-column: 2/3;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
 }
 
 .cifras-row {
-    position: relative;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 3rem auto;
@@ -189,6 +188,42 @@ a {
     color: #44484cb7;
 }
 
+.sostenibilidad-row {
+    background-image: url(images/aerea\ san\ antonio.png);
+    background-size: cover;
+    background-position: bottom center;
+    min-width: 320px;
+    max-width: 100%;
+    min-height: 520px;
+    color: white;
+    display: grid;
+    grid-template-columns: minmax(2%, 10%) auto minmax(2%, 10%);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sostenibilidad-intro h2 { 
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.sostenibilidad-intro {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.sostenibilidad-list { 
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+
+.sostenibilidad-outro { 
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+}
 footer {
     background-color: black;
 }
